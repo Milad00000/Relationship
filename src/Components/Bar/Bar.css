@@ -1,0 +1,16 @@
+
+.bar {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bar img {
+    width: 30px;
+}
+/* @media (max-width : 768px) {
+    .bar img {
+        width: 30px;
+    }
+} */

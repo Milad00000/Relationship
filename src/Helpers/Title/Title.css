@@ -1,0 +1,13 @@
+h3 span{
+    position: relative;
+}
+h3 span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    bottom: -2px;
+    right: 0;
+    
+}

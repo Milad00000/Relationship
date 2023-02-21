@@ -1,0 +1,42 @@
+.boxs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+.boxs div {
+    flex: 1 calc(100% / 3);
+    margin: 50px 0 ;
+}
+.boxs div:nth-child(3) {
+    border-color: transparent #c2c2c2;
+    border-width: 2px;
+    border-style: solid;
+}
+.boxs div i {
+    font-size: 25px;
+    color: black;
+}
+.boxs h4 {
+    margin: 20px 0;
+}
+.boxs p {
+    color: #777;
+    /* margin-top: 20px; */
+    font-size: 12px;
+}
+@media (max-width: 768px) {
+    .boxs {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .boxs div:nth-child(3) {
+        border: none;
+        margin: 30px 0;
+    }
+}
